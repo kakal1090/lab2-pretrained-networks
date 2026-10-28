@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Lab-generated large / local files
+.venv/
+data/
+runs/
+checkpoints/
+**/tensorboard/
+*.pt
+*.pth
+__pycache__/
+.ipynb_checkpoints/
+smoke_results/
