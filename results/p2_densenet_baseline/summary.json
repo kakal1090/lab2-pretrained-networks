@@ -1,0 +1,7 @@
+{
+  "status": "completed",
+  "best_val_accuracy": 0.8986,
+  "best_epoch": 5,
+  "training_seconds": 825.4176584920001,
+  "test": null
+}
