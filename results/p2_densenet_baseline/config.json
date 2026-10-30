@@ -1,0 +1,22 @@
+{
+  "model": "densenet121",
+  "mode": "head",
+  "lr": 0.001,
+  "batch_size": 32,
+  "epochs": 5,
+  "seed": 42,
+  "workers": 2,
+  "data_dir": "data",
+  "output_root": "results",
+  "run_name": "p2_densenet_baseline",
+  "smoke": false,
+  "evaluate_test": false,
+  "init_checkpoint": null,
+  "device": "cuda",
+  "python": "3.13.16",
+  "torch": "2.11.0+cu130",
+  "torchvision": "0.26.0+cu130",
+  "pretrained": true,
+  "optimizer": "SGD",
+  "momentum": 0.9
+}
